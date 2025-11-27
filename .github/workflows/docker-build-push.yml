@@ -28,4 +28,4 @@ jobs:
       - name: Build backend image
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.BACKEND_IMAGE_NAME }}:latest ./CMS-Backend
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/${{ env/BACKEND_IMAGE_NAME }}:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.BACKEND_IMAGE_NAME }}:latest
